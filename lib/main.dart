@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shopping/containerDesign';
+
+import 'container_design.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +45,7 @@ class _MyAppState extends State<MyApp> {
             ]),
           ),
           drawer: const Drawer(),
-          body: const OneContainerDesign(),
+          body: OneContainerDesign(),
         ),
       ),
     );
